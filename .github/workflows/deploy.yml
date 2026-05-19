@@ -17,4 +17,4 @@ jobs:
         with:
           args: deploy --only functions --project maodeobra-7dafe
         env:
-          GCP_SA_KEY: ${{ secrets.GOOGLE_CREDENTIALS }}
+          SERVICE_ACCOUNT: ${{ secrets.GOOGLE_CREDENTIALS }}
